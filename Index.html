@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!--corephoto project by max viushkin-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/reset-css.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--Font awesome-->	
+  <link href="css/iphone.css" type="text/css" media="screen and (max-device-width: 320px)" rel="stylesheet"/>
+  <title>Corephoto</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <a href="Index.html"><img src="images/logo.png"><span class = "fhotographer">Игорь Вьюшкин</span></a><span class="burger"><a href="#" onclick="toggle('mobile');"><span class = "small"><i class="fa fa-th"></i></span></a></span>
+        <span id="change"><a href="#">ru</a><a href="#">en</a></span>
+      </div>
+    </header>
+    <nav  class="navbar"  id="mobile">     
+      <ul>
+        <li id ="li1"><a href="#">Пейзаж</a></li><!--Space-->
+        <li id ="li2"><a href="#">Street photo</a></li><!--Space-->
+        <li id ="li3"><a href="#">Ню</a></li><!--Space-->
+        <li id ="li4"><a href="#">Портрет</a></li><!--Space-->
+        <li id ="li5"><a href="#">Животные</a></li><!--Space-->
+      </ul>
+    </nav>
+    <nav class="main">
+      <ul>
+        <li><a href="#">Пейзаж</a></li>
+        <li><a href="#">Street photo</a></li>
+        <li><a href="#">Ню</a></li>
+        <li><a href="#">Портрет</a></li>
+        <li><a href="#">Животные</a></li>
+      </ul>
+    </nav><!--end of main nav clss-->
+    <div class="fotorama"
+    data-fit="cover"
+    data-width="100%"
+    data-ratio="800/600"
+    data-nav="thumbs"
+    data-thumbwidth="190px"
+    data-thumbheight="130px">
+    <a href="images/horses.jpg"><img src="images/horses.jpg" width="190" height="130"></a>
+    <a href="images/carp.jpg"><img src="images/carp.jpg" width="190" height="130"></a>
+    <a href="images/snow.jpg"><img src="images/snow.jpg" width="190" height="130"></a>
+    <a href="images/crossroads.jpg"><img src="images/crossroads.jpg" width="190" height="130"></a>
+    <a href="images/autumn.jpg"><img src="images/autumn.jpg" width="190" height="130"></a>
+    <a href="images/dog.jpg"><img src="images/dog.jpg" width="190" height="130"></a>
+  </div><!--end of Fotorama div-->
+  <div class="social"><div class="shown"><a href="#"><i class="fa fa-share-alt-square fa-2x"></i></a>
+    <div class="hidden"><a href="http://vk.com/share.php?url=Index.html"><i class="fa fa-vk fa-2x"></i></a>
+      <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2FIndex.html&text=:%20http%3A%2F%2FIndex.html" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter fa-2x"></i></a>
+      <a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2FIndex.html&t=&s=" target="_blank" title="Post to Tumblr" onclick="window.open('http://www.tumblr.com/share?v=3&u=' + encodeURIComponent(document.URL) + '&t=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-tumblr-square fa-2x"></i></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FIndex.html&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook-square fa-2x"></i></a>
+    </div>
+  </div>
+</div>
+<div class="social_2"><a href="http://vk.com/share.php?url=Index.html"><i class="fa fa-vk"></i></a>
+  <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2FIndex.html&text=:%20http%3A%2F%2FIndex.html" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter"></i></a>
+  <a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2FIndex.html&t=&s=" target="_blank" title="Post to Tumblr" onclick="window.open('http://www.tumblr.com/share?v=3&u=' + encodeURIComponent(document.URL) + '&t=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-tumblr-square"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FIndex.html&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook-square"></i></a>
+</div>
+</div>
+</div><!--end of container div-->
+<div class="footer">
+  <div class="footer-text">
+    <div class="one"><span class="contacts"><i class="fa fa-phone-square fa-2x"></i>Контакты:</span><div class="number"><p>gifiluk@gmail.com</p><p>+7 97 873 986 90</p></div></div>
+    <div class="two"><span class="services"><i class="fa fa-list-ul fa-2x"></i><a href="service.html">Услуги</a></span></div>
+    <!--<div id="separator"></div>-->
+  </div><!--end of footer text-->
+</div><!--end of footer div-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><!--Fotorama-->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"><!-- Fotorama-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script><!-- Fotorama-->
+<script src="js/get.js"></script>
+</body>
+</html>

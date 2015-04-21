@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Project-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/reset-css.css" rel="stylesheet" type="text/css">
+  <link href="css/styles_2.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/magnific.css" rel="stylesheet" type="text/css">
+  <link href="css/popup.css" rel="stylesheet" type="text/css">
+  <title>Услуги</title>	
+</head>
+<body>
+  <header>  
+    <div class="logo">
+      <a href="Index.html"><img src="images/logo.png" alt="logo"><span class = "fhotographer">Игорь Вьюшкин</span></a>
+      <nav class="languages">
+        <ul>
+          <li><a href="#">ru</a></li>
+          <li><a href="#">en</a></li> 
+        </ul>
+      </nav><!--end of language nav-->
+    </div><!--end of logo-->
+  </header>
+  <div class="container">
+    <div class="photo">
+      <h2>Услуги:</h2>
+      <div class="zoom-gallery">
+        <p id="walk"><i class="fa fa-check-square fa-2x"></i><span class="text">Фотопрогулка</span></p>
+        <a href="images/alenka.jpg" data-source="http://500px.com/photo/32736307" title="Alenka">
+          <img src="images/alenka.jpg" alt="Пример">
+        </a><div class="gradient-2"></div>
+        <a href="images/cat.jpg" data-source="http://500px.com/photo/32554131" title="cat" alt="Пример">
+          <img src="images/cat.jpg" alt="Пример" align="right">
+        </a>
+        <div class="gradient"></div>
+        <p id="nu"><i class="fa fa-check-square fa-2x"></i><span class="text">Съемка в стиле Ню</span></p>
+        <a href="images/lake.jpg" data-source="http://500px.com/photo/32736307" title="Alenka" alt="Пример">
+          <img src="images/lake.jpg" alt="Пример">
+        </a><div class="gradient-2"></div>
+        <a href="images/lake_2.jpg" data-source="http://500px.com/photo/32554131" title="cat">
+          <img src="images/lake_2.jpg" alt="Пример" align="right">
+        </a><div class="gradient"></div></div>
+        <h2>Вы получите:</h2>
+        <div class="list">
+          <div class="foto">
+            <ul>
+              <li><i class="fa fa-circle"></i><span class="bullets">Создание образа</span></li>
+              <li><i class="fa fa-circle"></i><span class="bullets">Съемку 3-5 часов</span></li>
+              <li><i class="fa fa-circle"></i><span class="bullets">Уникальное место съемки</span></li>
+            </ul>	
+          </div><!--end of foto-->
+          <div class="makeup">
+            <ul>
+              <li><i class="fa fa-circle"></i><span class="bullets">Ретуш выбранных фото</span></li>
+              <li><i class="fa fa-circle"></i><span class="bullets">20 фото в обработке</span></li>
+              <li><i class="fa fa-circle"></i><span class="bullets">100 оригинальных фото</span></li>	
+            </ul>
+          </div><!--end of makeup-->
+        </div><!--end of div list-->
+        <div id="formOrder">
+          <form id="order_now">
+            <div id="cls"><p id="close_now" onclick ="div_hide()"><i class="fa fa-times"></i></p></div>
+            <p class="form_name"><span id="orderText">Сделать заказ
+            </span></p>
+            <input id="name" name="firstname" placeholder
+            ="Имя">
+            <input id="email" name="email" placeholder
+            ="Email">
+            <textarea id="msg" name="message" placeholder="Сообщение"></textarea>
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
+        <div id="but"><button id="button" onclick="div_show()"><span id="order">Заказать</span></button></div> 
+      </div>
+    </div><!--end of container-->
+    <div class="footer">
+      <div class="contacts">
+        <ul>
+          <p id="font-awesome-place"><i class="fa fa-phone-square fa-4x"></i></p>
+          <li>Крым, Ялта</li><li>gifiluk@gmail.com</li><li>+7 97 873 986 90</li>
+        </ul>
+        <span class = "return"><a href = "Index.html">Портфолио</a></span> 
+      </div><!--end of font awesome-->
+    </div>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/Magnific.js"></script> 
+    <script src="js/magnificpopup.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/order.js"></script>
+  </body>
+  </html>
