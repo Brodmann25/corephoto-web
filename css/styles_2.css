@@ -172,7 +172,7 @@ a{
 }
 form{
 	border-radius: 3px;
-	width: 40%;
+	width: 30%;
 	height: auto;
 	margin: auto;
 	box-shadow: 0px 2px 6px #212121;
@@ -198,27 +198,21 @@ form{
 	cursor: pointer;
 	opacity: 0.6;
 }
-
 #close_now:hover{
 background-color: #bbdefb;
 color: #000000;
 }
-#name, #email{
-	margin-left: 10%;
-	width: 80%;
+#name, #email, #msg{
+	font-family: Helvetica;
+	font-size: 1em;
+	width: 50%;
 	opacity: 1;
-	margin-bottom: 2%;
-
+	margin-top: 5px;
+	margin-left: 25%;
+	border-radius: 3px;
+	height: 30px;
+	border: 1px solid #bbdefb;
 }
-
-#name{
-	margin-top: 2%;
-}
-#msg{
-	margin-left: 10%;
-	width: 80%;
-}
-
 input[type=submit]{
 	cursor: pointer;
 	border-radius: 3px;
@@ -401,6 +395,8 @@ input[type=submit]:hover{
 		font-size: 0.6em;
 		margin-bottom: 3%;
 	}
+
+
 	#cls{
 		width: 19.5px;
 		height: 25px;
