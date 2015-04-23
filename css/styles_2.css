@@ -168,7 +168,7 @@ a{
 	display: none;
 	background-color: #15557d;
 	opacity: 0.98;
-	padding-bottom: 2%;
+	
 }
 form{
 	border-radius: 3px;
@@ -215,13 +215,13 @@ color: #000000;
 }
 
 #msg{
-	height: 60px;
-
+	height: 50px;
 }
 
-input[placeholder]{
+input[placeholder],textarea[placeholder]{
 	padding-left: 5px;
 	}
+
 input[type=submit]{
 	cursor: pointer;
 	border-radius: 3px;
@@ -246,15 +246,16 @@ input[type=submit]:hover{
 
 .form_name{
 	width: 100%;
-	height: 50px;
+	height: 30px;
 	background-color: #bbdefb;
 	text-align: center;
 	font-family: Open Sans;
 	font-weight: bold;
 	opacity: 0.87;
 	vertical-align: top;
-	padding-top: 5%;
+	padding-top: 4%;
 	border-radius: 3px;
+	font-size: 1em;
 }
 
 #orderText{
@@ -403,7 +404,7 @@ input[type=submit]:hover{
 		cursor: pointer;
 		border-radius: 3px;
 		width: 30%;
-		height: 25px;
+		height: 35px;
 		margin: 2% auto;
 		background-color: #1a5e9f;
 		color: #ffffff;
@@ -516,7 +517,7 @@ input[type=submit]:hover{
 		cursor: pointer;
 		border-radius: 3px;
 		width: 30%;
-		height: 25px;
+		height: 40px;
 		margin: 2% auto;
 		background-color: #1a5e9f;
 		color: #ffffff;
@@ -571,7 +572,7 @@ input[type=submit]:hover{
 		cursor: pointer;
 		border-radius: 3px;
 		width: 30%;
-		height: 25px;
+		height: 40px;
 		margin: 2% auto;
 		background-color: #1a5e9f;
 		color: #ffffff;
