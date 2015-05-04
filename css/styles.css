@@ -346,10 +346,12 @@ ul::after{
 		font-size: 0.6em;
 	}
 	.one{
+		font-size: 0.6em;
 		display: absolute;
 		float: left;
 	}
 	.two{
+		font-size: 0.6em;
 		float: right;
 		position: relative;
 		left: 0;
